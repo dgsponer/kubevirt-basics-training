@@ -62,7 +62,7 @@ Execute the following command:
 kubectl describe endpoints -n kubevirt kubevirt-prometheus-metrics
 ```
 
-Now use the fist IP address in the addresses list for the next command:
+Now use the first IP address in the addresses list for the next command:
 
 ```bash
 curl -k https://<endpoint IP address>:8443/metrics
